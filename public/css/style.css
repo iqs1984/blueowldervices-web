@@ -1,0 +1,754 @@
+
+body {
+    font-family: Muli;
+}
+
+a, i, span {
+    transition: all 0.4s ease-in 0s;
+    -webkit-transition: all 0.4s ease-in 0s;
+}
+
+ul {
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0px 3px 21px rgba(0, 0, 0, 0.11);
+    height: 55px;
+}
+
+.container {
+    width: 100%;
+}
+
+.admin-btn {
+    float: right;
+    margin: 4px 40px 0 0;
+}
+
+.admin-btn img {
+    float: left;
+}
+
+.admin-btn h4 {
+    color: #25211E;
+    font-size: 12px;
+    margin: 3px 0 0 48px;
+}
+
+.admin-btn h4 span {
+    background-color: #1A1363;
+    border-radius: 12px;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    font-weight: 800;
+    margin: 7px 0 0;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90px;
+}
+
+.admin-btn h4 span i {
+    padding: 0 0 0 8px;
+}
+
+.admin-section .col-md-2 .nav-tabs li {
+    margin: 0;
+    width: 100%;
+}
+
+.admin-section .col-md-2 .nav-tabs li img {
+    float: left;
+    margin: -1px 18px 0 0;
+}
+
+.admin-section .col-md-2 .nav-tabs li a {
+    border-bottom: 1px solid #e7e7e7;
+    color: #25211E;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 17px 20px;
+}
+
+.admin-section .col-md-2 .nav-tabs li.active a, .admin-section .col-md-2 .nav-tabs li a:hover {
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #e7e7e7;
+    color: #25211E;
+}
+
+.admin-section .tab-content {
+    padding: 28px 0;
+}
+
+.vendor-box, .vendor-detail {
+    border: 1px solid #D4D4D4;
+    border-radius: 3px;
+    padding: 30px 28px 25px;
+}
+
+.ven-txt {
+    background-color: #FDFDFD;
+    border: 1px solid #E6E6E6;
+    margin: 0 0 15px;
+}
+
+.vendor-box h3 {
+    border-bottom: 1px solid #DCDCDC;
+    color: #1A1363;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 25px;
+    padding: 0 0 15px;
+}
+
+.ven-txt h4 {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 28px 0 12px;
+}
+
+.ven-txt h5 {
+    color: #1A1363;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 18px;
+}
+
+.ven-txt h6, .vendor-detail h6 {
+    border: 1px solid #1A1363;
+    color: #000;
+    float: left;
+    font-size: 12px;
+    margin: 0 8px 8px 0;
+    padding: 7px;
+}
+
+.ven-txt a, .sett-txt a, .detail-box a {
+    background-color: #1A1363;
+    border: 2px solid #1A1363;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 30px 0 0;
+    padding: 10px 20px;
+}
+
+.ven-txt a i, .sett-txt a i, .detail-box a i {
+    padding: 0 0 0 10px;
+}
+
+.ven-txt a:hover, .sett-txt a:hover, .detail-box a:hover {
+    background-color: transparent;
+    color: #1A1363;
+}
+
+.inter table {
+    border: 1px solid #E0E0E0;
+    border-bottom: none;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.inter th {
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    color: #000;
+    font-weight: normal;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.inter td {
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    color: #1A1363;
+    padding: 11px 20px;
+    text-align: center;
+}
+
+.inter th:first-child, .inter td:first-child {
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+}
+
+.inter td:nth-child(4) {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inter span {
+    background-color: #219653;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    padding: 6px 0;
+    width: 85px;
+}
+
+.inter .un-btn {
+    background-color: #EB5757;
+}
+
+.inter a {
+    background-color: #1A1363;
+    border: 2px solid #1A1363;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 18px;
+}
+
+.inter a:hover {
+    background-color: transparent;
+    color: #1A1363;
+}
+
+.inter tr:last-child td:last-child {
+    font-weight: bold;
+}
+
+.sett-txt h4 {
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 0 18px;
+}
+
+.sett-txt p {
+    color: #6D6D6D;
+    font-size: 13px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.sett-txt p input[type="checkbox"] {
+    float: right;
+}
+
+.vendor-detail {
+    margin: 28px 0;
+}
+
+.detail-box {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+    padding: 0 0 40px;
+    text-align: center;
+}
+
+.detail-box h3 {
+    color: #1A1363;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 15px 0 20px;
+}
+
+.detail-box h3 span {
+    color: #000;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 10px;
+}
+
+.dd {
+    margin: -65px auto 0;
+}
+
+.detail-box a {
+    display: block;
+    margin: 0 auto 12px;
+    width: 175px;
+}
+
+.detail-box .sus-btn {
+    background-color: #eb5757;
+    border: 2px solid #eb5757;
+}
+
+.detail-box .sus-btn:hover {
+    background-color: transparent;
+    color: #eb5757;
+}
+
+.vendor-detail .nav-tabs {
+    border-bottom: 1px solid #C9C9C9;
+}
+
+.vendor-detail .nav-tabs li {
+    margin: 0;
+}
+
+.vendor-detail .nav-tabs li img {
+    float: left;
+    margin: -1px 18px 0 0;
+}
+
+.vendor-detail .nav-tabs li a {
+    border-bottom: 4px solid transparent;
+    color: #717171;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 45px 0 0 !important;
+    padding: 0 5px 10px;
+}
+
+.vendor-detail .nav-tabs li.active a, .vendor-detail .nav-tabs li a:hover {
+    background-color: transparent;
+    border-bottom: 4px solid #1A1363;
+    color: #000;
+}
+
+.vendor-detail p {
+    color: #A2A2A2;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.vendor-detail h4 {
+    background-color: #F3F3F3;
+    border: 1px solid #C7C7C7;
+    color: #949494;
+    display: inline-block;
+    font-size: 11px;
+    margin: 8px 0 15px;
+    padding: 4px 28px 4px 12px;
+}
+
+.vendor-detail h4 span {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 0 0;
+}
+
+.vendor-detail h5 {
+    color: #5F5F5F;
+    font-size: 13px;
+    margin: 0 0 15px;
+}
+
+.emp-box li {
+    border: 1px solid #ECECEC;
+    display: inline-block;
+    margin: 0 0 4px;
+    padding: 4px 10px;
+    vertical-align: top;
+    width: 32.5%;
+}
+
+.emp-box li img {
+    float: left;
+}
+
+.emp-box li p {
+    color: #C6C1C1;
+    font-size: 12px;
+    margin: 0 0 0 55px;
+}
+
+.emp-box li p span {
+    color: #000;
+    display: block;
+    font-size: 13px;
+}
+
+.trans-box {
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    margin: 0 0 20px;
+    padding: 10px 0 20px;
+    text-align: center;
+}
+
+.trans-box h4 {
+    border-radius: 3px;
+    margin: 0 5px;
+    text-align: left;
+    width: 45%;
+}
+
+.trans-box h5 {
+    background-color: transparent;
+    border: none;
+    color: #1A1363;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 10px 18px;
+    text-align: left;
+}
+
+.trans-box h5 span {
+    color: #262626;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.trans-box .un-btn, .paid-btn {
+    background-color: #219653;
+    border-radius: 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 18px 0 0;
+    padding: 8px 0;
+    width: 120px;
+}
+
+.trans-box .un-btn {
+    background-color: #EB5757;
+}
+
+.login-section {
+    align-items: center;
+    background-image: url(../images/login-bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+.login-section form {
+    background-color: #fff;
+    box-shadow: 0 0 4px #ddd;
+    padding: 30px;
+}
+
+.login-section h3 {
+    color: #1A1363;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+
+.login-section h4 {
+    margin: -10px 0 15px;
+    text-align: right;
+}
+
+.login-section h4 a {
+    color: #919191;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.login-section h4 a:hover, .login-section a:hover {
+    color: #1A1363;
+}
+
+.login-section input, .sett-txt input {
+    background-color: #fff;
+    border: 1px solid #1A1363;
+    border-radius: 0;
+    box-shadow: none;
+    color: #424242;
+    font-size: 14px;
+    height: 46px;
+    margin: 0 0 17px;
+    padding: 0 15px;
+}
+
+.login-section input:focus, .sett-txt input focus {
+    background-color: #fff;
+    border: 1px solid #1A1363;
+    box-shadow: none;
+    color: #424242;
+}
+
+.login-section input::-moz-placeholder, .sett-txt input::-moz-placeholder {
+    color: #424242;
+}
+
+.login-section input::-webkit-input-placeholder, .sett-txt input::-webkit-input-placeholder {
+    background-color: transparent;
+    color: #424242;
+}
+
+.login-section a {
+    color: #25211E;
+    font-weight: 600;
+}
+
+.login-section a span {
+    background-color: #1A1363;
+    border: 2px solid #1A1363;
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 9px 0;
+}
+
+.login-section a span:hover {
+    background-color: transparent;
+    color: #1A1363;
+}
+
+.sett-txt .modal {
+    top: 17%;
+}
+
+.sett-txt .close {
+    color: #000;
+    font-size: 36px;
+    font-weight: normal;
+    margin: -12px -25px 0 0;
+    padding: 0;
+    opacity: 1;
+    text-shadow: none;
+}
+
+.sett-txt .modal-header {
+    border-bottom: none;
+    display: block;
+}
+
+.sett-txt .modal-content {
+    padding: 20px 30px 25px;
+    text-align: center;
+}
+
+.sett-txt .modal-body {
+    padding: 0;
+}
+
+.sett-txt .modal-header h4 {
+    color: #1A1363;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 18px;
+}
+
+.sett-txt .modal-body a {
+    margin: 0;
+    padding: 9px 40px;
+}
+
+
+/*.................. Home-Page-Media .................. */
+@media (min-width: 320px) and (max-width: 767px) {
+    header .col-md-2 {
+        float: left;
+        width: 40%;
+    }
+
+    header .col-md-10 {
+        float: left;
+        width: 60%;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo1 {
+        display: none;
+    }
+
+    .admin-btn {
+        margin: 4px 5px 0 0;
+    }
+
+    .admin-section {
+        padding: 35px 0 0;
+    }
+
+    .vendor-box, .vendor-detail {
+        padding: 20px 10px 25px;
+    }
+
+    .ven-txt {
+        padding: 10px;
+    }
+
+    .ven-txt a {
+        clear: both;
+        float: left;
+        font-size: 13px;
+        margin: 8px 0 5px;
+        padding: 8px 15px;
+    }
+
+    .sett-txt a {
+        margin: 15px 0 20px;
+        padding: 8px 15px;
+    }
+
+    .detail-box {
+        margin: 0 0 30px;
+    }
+
+    .vendor-detail .nav-tabs li a {
+        margin: 0 15px 10px 0 !important;
+    }
+
+    .emp-box li {
+        width: 100%;
+    }
+
+    .trans-box h4 {
+        width: 44%;
+    }
+
+    .sett-txt .modal-header h4 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+    .emp-box li {
+        width: 49%;
+    }
+
+    .vendor-detail #tab7 .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .admin-section .col-md-2 {
+        padding-left: 0;
+    }
+
+    .admin-section .col-md-2 ul {
+        background-color: #fff;
+        box-shadow: 0px 3px 21px rgba(0, 0, 0, 0.11);
+        height: 100%;
+        position: fixed;
+        top: 0;
+        width: 16.7%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .sett-txt .col-md-8 {
+        border-left: 1px solid #DCDCDC;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .admin-section .col-md-2 ul {
+        width: 25%;
+    }
+
+    .ven-txt a {
+        float: right;
+        margin: 10px 20px 20px 0;
+    }
+
+    .sett-txt a {
+        padding: 8px 15px;
+    }
+
+    .detail-box {
+        margin: 0 0 30px;
+    }
+
+    .vendor-detail .nav-tabs li a {
+        margin: 0 18px 0 0 !important;
+    }
+
+    .emp-box li {
+        width: 49%;
+    }
+
+    .trans-box h4 {
+        width: 44%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .ven-txt a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .ven-txt a i {
+        padding: 0 0 0 5px;
+    }
+
+    .dd {
+        margin: -35px auto 0;
+    }
+
+    .vendor-detail .nav-tabs li a {
+        margin: 0 18px 0 0 !important;
+    }
+
+    .vendor-detail .col-md-2 img {
+        margin: 0 0 5px;
+    }
+
+    .emp-box li {
+        width: 49%;
+    }
+
+    .trans-box h4 {
+        width: 44%;
+    }
+}
+
+.login-button {
+    background-color: #1A1363;
+    border: 2px solid #1A1363;
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 9px 0;
+    width: 100%;
+}
+
+#checkpassword {
+    text-align: left;
+    padding: 0px 0 8px 0;
+}
+
+.passwordmatch {
+    color: green;
+}
+
+.passwordnotmatch {
+    color: red;
+}
+#about{
+    margin: 0 0 23px 0;
+}
+#showpass{
+    cursor: pointer;
+}
+#hidepass{
+    cursor: pointer;
+}
